@@ -228,6 +228,7 @@ footer {
         padding: 30px 20px;
         width: 100%;
         background-size: cover;
+        background-position: center;
     }
     .hero_nav  ul{
         display: none;
