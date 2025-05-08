@@ -230,6 +230,9 @@ footer {
         background-size: cover;
         background-position: center;
     }
+    .container{
+        width: 100%;
+    }
     .hero_nav  ul{
         display: none;
         position: absolute;
@@ -246,7 +249,7 @@ footer {
     } 
     .vr_section {
         display: block;
-        padding: 10px 20px;
+        padding: 0 20px;
         position: none;
         width: 100%;
     }
@@ -262,16 +265,34 @@ footer {
         width: 100%;
         right: 0;
         position: static;
-        padding: 0 40px;
+        padding: 0;
     }
     /* .vr_section {
         padding: 30px 20px;
         width: 100%;
     } */
+    .img_container{
+        grid-template-columns: 1fr; 
+    }
+    .creation_header{
+        display: block;
+        text-align: center;
+    }
     .right {
         margin-top: 0;
         text-align: center;
-        border: 2px solid black;
+        min-width: 100%;
+        /* border: 2px solid black; */
+    }
+    .right_header{
+        font-size: 2.5rem;
+    }
+    .right_text{
+        padding: 0 30px;
+        line-height: 1.2;
+    }
+    .our_creation {
+        padding: 30px 20px;
     }
     .img1{
         background: linear-gradient(to bottom, transparent, black), url('images/mobile/image-deep-earth.jpg');
