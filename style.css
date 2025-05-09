@@ -230,8 +230,15 @@ footer {
         background-size: cover;
         background-position: center;
     }
+    .hero_text {
+        padding-left: 10px;
+    }
     .container{
         width: 100%;
+    }
+    .hamburger {
+        display: block;
+        margin-left: 95px;
     }
     .hero_nav  ul{
         display: none;
