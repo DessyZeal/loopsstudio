@@ -1,6 +1,6 @@
 const hamburger = document.getElementById('hamburger');
-const navLinks = document.getElementById('nav-links');
-const closeMenu = document.getElementById('close-menu');
+const navLinks = document.getElementById('nav_links');
+const closeMenu = document.getElementById('close_menu');
 let menuOpen = false;
 
 hamburger.addEventListener('click', () => {
