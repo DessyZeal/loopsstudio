@@ -11,26 +11,26 @@
 <body>
     <!-- HERO SECTION -->
     <header>
-        <div class="container">
-            <div class="logo">
-                <img src="./images/logo.svg" alt="">
-            </div>
-            <div class="hamburger">
-                <img src="images/icon-hamburger.svg" alt="" id="hamburger">
+        <nav>
+            <div class="nav-toggle">
+              <img src="images/logo.svg" alt="Logo">
+              <div class="hamburger">
+                <img id="hamburger" src="images/icon-hamburger.svg" alt="">
               </div>
-            <nav class="hero_nav">
-                <ul id="nav_links">
-                    <div id="menu_toggle" class="hamburger">
-                        <img id="close_menu" src="images/icon-close.svg" alt="">
-                    </div>
-                    <li> <a href="#">About</a> </li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Support</a></li>
-                </ul>
-            </nav>
-        </div>
+            </div>
+            <ul id="nav-links" class="hidden">
+              <div id="menu-toggle" class="menu">
+                <div class="close">
+                  <img id="close-menu" src="images/icon-close.svg" alt="">
+                </div>
+              </div>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+        </nav>
 
         <div class="hero_text">
             IMMERSIVE EXPERIENCES THAT DELIVER
@@ -99,6 +99,6 @@
             </div>
         </div>
     </footer>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
