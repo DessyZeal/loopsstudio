@@ -21,42 +21,6 @@ header {
     /* max-width: 1440px; */
     width: 100%;
 }
-.hamburger {
-    display: none;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    font-style: normal;
-    font-size: 15px;
-}
-nav ul,
-.f-div2 ul{
-    display: flex;
-    list-style: none;
-    gap: 25px;
-}
-nav ul li a{
-    text-decoration: none;
-    color: #ffffff;
-}
-nav ul li a:hover{
-    border-bottom: 1px solid;
-    color: #ffffff;
-}
-.menu > img{
-    display: none;
-}
-.nav-toggle{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#close-menu{
-    display: none;
-}
 .hero_text {
     font-size: 4rem;
     font-family: "Josefin Sans", sans-serif;
